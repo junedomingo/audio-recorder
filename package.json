@@ -1,0 +1,55 @@
+{
+  "name": "fabtest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "esw index.ios.js index.android.js src",
+    "lint:watch": "npm run lint -- --watch"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-react-native": "^2.0.0",
+    "eslint-watch": "2.1.14",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "react": "~15.4.1",
+    "react-native": "0.42.0",
+    "react-native-audio": "^3.2.1",
+    "react-native-fs": "^2.1.0-rc.1",
+    "react-native-sound": "^0.9.1",
+    "react-native-vector-icons": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "~15.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "description": "Fable test",
+  "main": "index.ios.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junedomingo/fabtest.git"
+  },
+  "keywords": [
+    "fable",
+    "audio",
+    "recorder"
+  ],
+  "author": "June Domingo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junedomingo/fabtest/issues"
+  },
+  "homepage": "https://github.com/junedomingo/fabtest#readme"
+}
